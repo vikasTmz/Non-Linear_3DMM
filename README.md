@@ -52,3 +52,7 @@ Make sure the right model evaluation mode is set in the config file and then run
 python generate.py config/<choose a config file>
 
 ````
+
+## Results
+
+
