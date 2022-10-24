@@ -1,0 +1,24 @@
+#disney_L1_KLD_geomMM_v2_neutral_captured_version3.0
+
+Metrics for model_50000.pt, L1 = 0.004629
+Metrics for model_100000.pt, L1 = 0.004552
+
+#disney_L1_KLD_geomMM_v2_neutral_captured_version2.0
+
+Metrics for model_50000.pt, L1 = 0.006512
+Metrics for model_70000.pt, L1 = 0.006517
+Metrics for model_110000.pt, L1 = 0.006499
+Metrics for model_160000.pt, L1 = 0.006473
+
+#disney_L1_KLD_geomMM_v2_neutral_captured_version
+
+Metrics for model_30000.pt, L1 = 0.003437
+Metrics for model_40000.pt, L1 = 0.003633
+Metrics for model_50000.pt, L1 = 0.003939
+
+
+#disney_L1_KLD_geomMM_v2_neutral_all
+
+Metrics for model_30000.pt, L1 = 0.000890
+Metrics for model_60000.pt, L1 = 0.000724
+Metrics for model_100000.pt, L1 = 0.000680

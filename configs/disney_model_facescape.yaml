@@ -1,0 +1,47 @@
+method: nonlinearmm
+data:
+  path_shapes: /media/vikas/Elements/facescape_nonlinear_data
+  disp_size: 26317
+  b_size: 20
+  with_shuffle: True
+training:
+  out_dir: '/media/vikas/Elements/facescape_out/disney_L1_KL_v2/'
+  batch_size: 32
+  model_selection_metric: null # add loss term if needed
+  model_selection_mode: maximize # or minimize?
+  print_every: 100
+  visualize_every: 0
+  checkpoint_every: 10000
+  validate_every: 0
+  backup_every: 10000
+  moving_average_beta: 0
+  weight_vaeloss: 10.
+  experiment: 'generative'
+  gradient_penalties_reg: 0.
+  lr: 0.0005
+  multi_gpu: false
+model:
+  main_network: version_2
+  decoder: geom_resnet # {geom, joint, geom_albedo}
+  id_vae_encoder: id_resnet
+  exp_vae_encoder: exp_resnet
+  decoder_kwargs:
+    leaky: True
+  vae_encoder_kwargs:
+    leaky: True
+  n_id: 32
+  n_exp: 256
+  model_url:
+generation:
+  batch_size: 1
+  #batch_size: 2
+test:
+  model_file: model_90000.pt
+  vis_dir: 'out/disney_L1_KL_v2_90k'
+  dataset_split: 'test_vis' 
+  interpol: False
+  generation_mode: 'test_vae'
+  #generation_mode: 'interpolate'
+  #generation_mode: 'eval_vae'
+  #generation_mode: 'sample_vae'
+  #generation_mode: 'iter_sample_vae'

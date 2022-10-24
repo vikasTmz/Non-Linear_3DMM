@@ -1,0 +1,12 @@
+
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Transfer: Vertex Color to Texture">
+  <Param tooltip="The texture file to be created" name="textName" value="diffuse_cc_0204_vert2tex_256.png" type="RichString" description="Texture file"/>
+  <Param tooltip="The texture width" name="textW" value="256" type="RichInt" description="Texture width (px)"/>
+  <Param tooltip="The texture height" name="textH" value="256" type="RichInt" description="Texture height (px)"/>
+  <Param tooltip="if current mesh has a texture will be overwritten (with provided texture dimension)" name="overwrite" value="false" type="RichBool" description="Overwrite texture"/>
+  <Param tooltip="assign the newly created texture" name="assign" value="false" type="RichBool" description="Assign texture"/>
+  <Param tooltip="if enabled the unmapped texture space is colored using a pull push filling algorithm, if false is set to black" name="pullpush" value="true" type="RichBool" description="Fill texture"/>
+ </filter>
+</FilterScript>

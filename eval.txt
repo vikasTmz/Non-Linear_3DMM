@@ -1,0 +1,34 @@
+# L1
+Metrics for model_2000.pt, L1 = 0.002516, Fscore = 1.000000, Chamfer = 0.000155
+Metrics for model_10000.pt, L1 = 0.002487, Fscore = 1.000000, Chamfer = 0.000178
+Metrics for model_32000.pt, L1 = 0.002587, Fscore = 1.000000, Chamfer = 0.000122
+Metrics for model_52000.pt, L1 = 0.002577, Fscore = 1.000000, Chamfer = 0.000159
+Metrics for model_72000.pt, L1 = 0.002491, Fscore = 1.000000, Chamfer = 0.000167
+Metrics for model_92000.pt, L1 = 0.002542, Fscore = 1.000000, Chamfer = 0.000125
+
+# L1_KL v2
+Metrics for model_90000.pt, L1 = 0.005427, Fscore = 1.000000, Chamfer = 0.000165
+
+
+
+## CTX DATA
+
+#disney_L1_test_vae
+
+Metrics for model_10000.pt, L1 = 0.003351, Fscore = 1.000000, Chamfer = 0.000067
+Metrics for model_30000.pt, L1 = 0.003187, Fscore = 1.000000, Chamfer = 0.000073
+Metrics for model_60000.pt, L1 = 0.003170, Fscore = 1.000000, Chamfer = 0.000060
+Metrics for model_100000.pt, L1 = 0.003119, Fscore = 1.000000, Chamfer = 0.000052
+Metrics for model_200000.pt, L1 = 0.003133, Fscore = 1.000000, Chamfer = 0.000044
+
+#disney_L1_train_vae
+Metrics for model_40000.pt, L1 = 0.000374, Fscore = 1.000000, Chamfer = 0.000001
+
+
+#disney_L1_KLD_v1_test&train_vae
+Metrics for model_90000.pt, L1 = 0.002624, Fscore = 1.000000, Chamfer = 0.000048
+
+
+# disney_model_ctx_kld_geomMM_v2_1
+Metrics for model_40000.pt, L1 = 0.005498, Fscore = 1.000000, Chamfer = 0.000192
+Metrics for model_5000.pt, L1 = 0.003189, Fscore = 1.000000, Chamfer = 0.000050

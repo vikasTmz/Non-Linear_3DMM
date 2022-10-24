@@ -1,0 +1,51 @@
+method: nonlinearmm
+data:
+  path_shapes: /media/vikas/Elements/.ctx_non_linear_data_texture
+  disp_size: 20339
+  b_size: 37
+  with_shuffle: True
+training:
+  out_dir: '/media/vikas/Elements/.ctx_out/disney_L1_albedoMM_full/'
+  batch_size: 32
+  model_selection_metric: null # add loss term if needed
+  model_selection_mode: maximize # or minimize?
+  print_every: 100
+  visualize_every: 0
+  checkpoint_every: 10000
+  validate_every: 0
+  backup_every: 10000
+  moving_average_beta: 0
+  weight_vaeloss: 1.
+  weight_l1loss: 1000.
+  weight_kldloss: 0.001.
+  experiment: 'generative'
+  gradient_penalties_reg: 0.
+  lr: 0.0005
+  multi_gpu: false
+model:
+  main_network: version_1
+  decoder: joint # {geom, joint, geom_albedo}
+  id_vae_encoder: id_resnet
+  exp_vae_encoder: exp_resnet
+  decoder_kwargs:
+    leaky: True
+  vae_encoder_kwargs:
+    leaky: True
+  n_id: 32
+  n_exp: 256
+  model_url:
+generation:
+  batch_size: 1
+  # batch_size: 2
+  # batch_size: 28
+test:
+  model_file: model_50000.pt
+  vis_dir: 'out/disney_L1_albedoMM_full_sample_vae_50k'
+  dataset_split: 'test_vis' 
+  interpol: False
+  # generation_mode: 'test_vae'
+  # generation_mode: 'interpolate'
+  #generation_mode: 'eval_vae'
+  generation_mode: 'sample_vae'
+  #generation_mode: 'iter_sample_vae'
+  # generation_mode: tsne_viz
