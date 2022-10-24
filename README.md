@@ -21,6 +21,10 @@ conda env create -f environment.yaml
 conda activate nonlinear3dmm
 ````
 
+*Optional*
+
+Source: https://github.com/ThibaultGROUEIX/AtlasNet
+
 ````
 python auxiliary/ChamferDistancePytorch/chamfer3D/setup.py install #MIT
 cd auxiliary
@@ -29,7 +33,6 @@ cd metro_sources; python setup.py --build # build metro distance #GPL3
 cd ../..
 ````
 
-Source: https://github.com/ThibaultGROUEIX/AtlasNet
 
 
 ## Usage
