@@ -7,7 +7,7 @@ Since Blanz and Vetter’s seminal work, the community has focused on building d
 Motivated by recent works on non-linear face models, we built a deep generative face model operating on vertex-based deformation representation. Our method enjoys properties like disentangled identity and expression latent space, models correlation between appearance and geometry and captures high-frequency textures, and importantly provides artistic semantic control. The result allow users to synthesise random realistic human faces and explore the manifold of faces by performing latent space manipulation akin to works like StyleGAN in the 2D domain.
 
 
-<img src="./data/images/thumbnail_1.jpg" alt="" style="height: 300px; width:300px;"/> <img src="./data/images/thumbnail_2.jpg" alt="" style="height: 300px; width:300px;"/> <img src="./data/images/thumbnail_3.jpg" alt="" style="height: 300px; width:300px;"/>
+<img src="./data/images/thumbnail_1.jpg" alt="" style="width:25%;"/> <img src="./data/images/thumbnail_2.jpg" alt="" style="width:25%;"/> <img src="./data/images/thumbnail_3.jpg" alt="" style="width:25%;"/>
 
 ## Requirements
 
