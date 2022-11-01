@@ -76,7 +76,7 @@ python generate.py config/<choose a config file>
 
 ### Traversing the latent space:
 
-<img src="./data/images/plot_faces.png" alt="" style="width:100%;"/>
+<img src="./data/images/plot_faces.PNG" alt="" style="width:100%;"/>
 
 ### Latent space editing:
 
