@@ -14,6 +14,8 @@ Motivated by recent works on non-linear face models, we built a deep generative 
 Optional
 - Blender
 
+*Test on Ubuntu 18, CUDA.__version__==10.2, pytorch.__version__==1.10.1*
+
 ## Installation
 
 ````
@@ -52,3 +54,8 @@ Make sure the right model evaluation mode is set in the config file and then run
 python generate.py config/<choose a config file>
 
 ````
+
+## Results
+
+
+
